@@ -1,5 +1,5 @@
 {
-  "name": "metis-app",
+  "name": "@metis/app",
   "version": "0.0.1",
   "scripts": {
     "dev": "next dev",

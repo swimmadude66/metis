@@ -1,0 +1,12 @@
+{
+  "name": "@metis/express-service",
+  "version": "1.0.0",
+  "dependencies": {
+    "@metis/common": "workspace:*",
+    "express": "4.18.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.4",
+    "@types/express": "4.17.18"
+  }
+}

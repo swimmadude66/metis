@@ -3,12 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "cd packages/app && bun dev",
+    "build": "cd packages/app && next build",
+    "start": "cd packages/app && next start",
+    "lint": "cd packages/app && next lint"
   },
   "workspaces": [
-    "packages/*"
-  ]
+    "packages/*",
+    "services/*",
+    "actions/*"
+  ],
+  "devDependencies": {
+    "@types/node": "20.8.4",
+    "@types/express": "4.17.18"
+  }
 }

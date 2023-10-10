@@ -1,0 +1,7 @@
+{
+  "name": "@metis/discord-service",
+  "version": "1.0.0",
+  "dependencies": {
+    "@metis/common": "workspace:*"
+  }
+}
