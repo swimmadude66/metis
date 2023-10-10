@@ -1,0 +1,7 @@
+{
+  "name": "@metis/services",
+  "version": "1.0.0",
+  "dependencies": {
+    "@metis/common": "*"
+  }
+}
